@@ -1,0 +1,6 @@
+from httpd
+run apt-get update -y
+run apt-get install git -y
+run git clone https://github.com/kiran-sehgal/boothapp.git
+run cp -rvf boothapp/* /usr/local/apache2/htdocs/
+run rm -rvf boothapp
