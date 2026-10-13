@@ -6,3 +6,4 @@ run rm -rvf /usr/share/nginx/html/*
 run unzip index.html
 run cp -rvf applefarm/* /usr/share/nginx/html/
 run rm -rvf index.html applefarm
+expose 80 
